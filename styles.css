@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f2e8;
+    /* A light beige background color */
+    color: #333;
+    /* Dark color for text */
+    padding: 2em;
+}
+
+h1 {
+    color: #ff4500;
+    /* A vibrant orange */
+    text-shadow: 3px 3px 5px rgba(255, 69, 0, 0.2);
+    /* A subtle text shadow */
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #3498db;
+    /* A bright blue */
+    text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.1);
+    /* A subtle text shadow */
+    margin-top: 2em;
+}
+
+iframe.giphy-embed {
+    display: block;
+    margin: 2em auto;
+    /* Center the iframe on the page */
+    border: 5px solid #16a085;
+    /* A turquoise border */
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* A subtle shadow */
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+a {
+    color: #e74c3c;
+    /* A bright red */
+    text-decoration: none;
+    /* Remove the underline */
+    transition: color 0.3s;
+    /* Smooth color transition for hover */
+}
+
+a:hover {
+    color: #c0392b;
+    /* Darken the link color on hover */
+}
+
+.main {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: 3em;
+}
+
+.footer h3 {
+    font-size: .5em;
+}
